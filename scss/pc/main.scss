@@ -1,7 +1,7 @@
 /** IMPORTS **/
 
-@use "/variables.scss";
-@use "/scss/pc/homepage/homepage.csss";
+@use "../variables.scss" as *;
+@use "./homepage/homepage.scss";
 
 #pc-wrap {
   #top {
