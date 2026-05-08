@@ -41,7 +41,7 @@ const PopularProperties = ({
               el: ".swiper-popular-pagination",
             }}
           >
-            {popularProperties?.map((property, index) => {
+            {popularProperties.map((property, index) => {
               return (
                 <SwiperSlide key={index} className={"popular-property-slide"}>
                   <PopularPropertyCard />

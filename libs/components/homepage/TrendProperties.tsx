@@ -43,7 +43,7 @@ const TrendProperties = () => {
                 el: ".swiper-trend-pagination",
               }}
             >
-              {trendProperties?.map((property, index) => {
+              {trendProperties.map((property, index) => {
                 return (
                   <SwiperSlide key={index} className={"trend-property-slide"}>
                     <TrendPropertyCard />
