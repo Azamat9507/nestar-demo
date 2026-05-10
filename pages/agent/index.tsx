@@ -15,7 +15,7 @@ const AgentList: NextPage = () => {
     return (
       <div style={{ margin: "20px 0" }}>
         <Stack className="container">AGENT LIST</Stack>
-      </div>
+      </div>np
     );
   }
 };
